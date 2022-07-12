@@ -9,7 +9,7 @@ defaults:
     working-directory: backend
 jobs:
   build:
-    name: Build
+    name: sonar backend
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
