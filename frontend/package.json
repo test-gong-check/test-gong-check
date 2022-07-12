@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode=production --node-env=production",
-    "prettier": "npx prettier --write 'src/**/*.{tsx,ts,css,html,json}'"
+    "prettier": "npx prettier --write 'src/**/*.{tsx,ts,css,html,json}'",
+    "sonar": "node sonar-project.js"
   },
   "repository": {
     "type": "git",
